@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage</title>
-	<link href="styles.css" rel="stylesheet">
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+        <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+      </ol>
+    </nav>
 
-</head>
-<body>
-	<nav>
-		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	        <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
-	    </ol>
-	</nav>
+    <content>
+      <h1>Hello World</h1>
+      <!-- insert hello world here -->
 
-	<content>
-		<h1>Hello World</h1>
-		<!-- insert hello world here -->
+      <img src="andrew-wulf-59yg_LpcvzQ-unsplash.jpg" id="ducks" />
 
-		<img src="andrew-wulf-59yg_LpcvzQ-unsplash.jpg" id="ducks">
+      <p>Welcome, weary traveler.</p>
+      <ul>
+        <li>You look great</li>
+        <li>These ducks love you</li>
+        <li>You're probably a genius</li>
+      </ul>
 
-		<p>Welcome, weary traveler.</p>
-		<ul>
-			<li>You look great</li>
-			<li>These ducks love you</li>
-			<li>You're probably a genius</li>
-		</ul>
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
 
-		<h2>Contact Us</h2>
-		<form id="contact">
-			Your name:
-			<input type="text">
+        How did you hear about this site?<br />
+        <label for="google">Google:</label
+        ><input type="checkbox" value="google" id="google" />
+        <label for="friend">Friend:</label
+        ><input type="checkbox" value="friend" id="friend" />
+        <label for="other">Other:</label
+        ><input type="checkbox" value="other" id="other" />
 
-			How did you hear about this site?<br>
-			<label for="google">Google:</label><input type="checkbox" value="google" id="google"/>
-			<label for="friend">Friend:</label><input type="checkbox" value="friend" id="friend"/>
-			<label for="other">Other:</label><input type="checkbox" value="other" id="other"/>
+        Message:
+        <input type="textarea" />
 
-			Message:
-			<input type="textarea">
+        <input type="submit" />
+      </form>
+    </content>
 
-			<input type="submit">
-
-
-		</form>
-
-	</content>
-
-
-	<script src="about.js"></script>
-
-</body>
+    <script src="about.js"></script>
+  </body>
 </html>
