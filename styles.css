@@ -1,0 +1,75 @@
+body {
+  background: #ddd;
+  background-image: url("heather-shevlin-3B_NrzTjajc-unsplash.jpg");
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: 'Oxygen', sans-serif;
+}
+
+div {
+	background-color: rgba(255,255,255,.5);
+	padding: 2em;
+	margin: 1em;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+.inline {
+	display: inline;
+}
+
+.yellow {
+	background-color: rgb(255, 255, 188);
+	color:  rgb(80, 80, 16);
+	height: 3em;
+	border-radius: 20% 0 20% 0;
+	border: none;
+}
+.yellow:hover {
+	background-color:rgb(80, 80, 16);
+	color:rgb(255, 255, 188);
+}
+
+img {
+	max-width: 300px;
+}
+
+#compliment-dylan-btn {
+	margin: 1em;
+	background-color: orange;
+	height: 2em;
+}
+
+#compliment-dylan-btn:hover {
+	background-color: red;
+}
+
+p{
+	font-family: 'Oxygen', sans-serif;
+}
